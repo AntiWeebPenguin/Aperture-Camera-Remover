@@ -1,0 +1,17 @@
+--- common_full.mk	2023-10-07 14:56:39.163791371 -0300
++++ common_full2.mk	2023-10-07 15:01:32.550154029 -0300
+@@ -15,10 +15,10 @@
+     Recorder \
+     Seedvault
+ 
+-ifneq ($(PRODUCT_NO_CAMERA),true)
+-PRODUCT_PACKAGES += \
+-    Aperture
+-endif
++#ifneq ($(PRODUCT_NO_CAMERA),true)
++#PRODUCT_PACKAGES += \
++#    Aperture
++#endif
+ 
+ ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
+ PRODUCT_PACKAGES += \
