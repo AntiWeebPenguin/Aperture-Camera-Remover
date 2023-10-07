@@ -1,2 +1,2 @@
 # Aperture-Camera-Remover
-This patch removes aperture camera on BlissROM.
+This patch removes Aperture camera on BlissROM.
